@@ -115,6 +115,7 @@ function cask_projectile:GetCaskAbilities()
 		-- Misc
 		"cask_projectile",
 		"generic_hidden",
+		"ability_capture",
 		
 		-- Invoker
 		"invoker_quas",
@@ -148,7 +149,7 @@ function cask_projectile:GetCaskAbilities()
 		end
 		
 		-- Add that ability after checkpoint
-		print(ability:GetAbilityName())
+		--print(ability:GetAbilityName())
 		table.insert(abilities, ability)
 		
 		-- Skip
