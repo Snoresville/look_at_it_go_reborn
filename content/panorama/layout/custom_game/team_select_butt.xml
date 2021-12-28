@@ -166,29 +166,43 @@
 						<Label text="Cooldown" class="TextEntryLabel"/>
 					</Panel>
 				</Panel>
-				<Panel id="toolsModeGroup" class="SettingsGroup w-31 v-coll">
-					<Label class="SettingsGroupTitle" text="Tools Mode"/>
-					<Button id="NEUTRALITEMEDITOR" class="InToolsMode SettingsItem ButtonBevel" onactivate="openItemEditor('neutralItems')">
-						<Label text="Neutrals Item Editor"/>
-						<!-- <Image src="file://{images}/control_icons/shuffle.psd" /> -->
-					</Button>
-					<Button id="ITEMEDITOR" class="InToolsMode SettingsItem ButtonBevel" onactivate="openItemEditor('items')">
-						<Label text="Item Editor"/>
-						<!-- <Image src="file://{images}/control_icons/shuffle.psd" /> -->
-					</Button>
-					<Button id="ABILITYEDITOR" class="InToolsMode SettingsItem ButtonBevel" onactivate="openItemEditor('abilities')">
-						<Label text="Ability Editor"/>
-						<!-- <Image src="file://{images}/control_icons/shuffle.psd" /> -->
-					</Button>
-					<Button id="HEROEDITOR" class="InToolsMode SettingsItem ButtonBevel" onactivate="openItemEditor('heroes')">
-						<Label text="Hero Editor"/>
-						<!-- <Image src="file://{images}/control_icons/shuffle.psd" /> -->
-					</Button>
-					<Button id="UNITEDITOR" class="InToolsMode SettingsItem ButtonBevel" onactivate="openItemEditor('units')">
-						<Label text="Unit Editor"/>
-						<!-- <Image src="file://{images}/control_icons/shuffle.psd" /> -->
-					</Button>
-					<Button id="CHEAT_QUICK" class="InToolsMode SettingsItem ButtonBevel" onactivate="onPanelChange('CHEAT_QUICK')"><Label text="Quick Start" /></Button>
+				<Panel class="SettingsGroup w-31">
+					<Panel class="SettingsItem TextEntryFrame">
+						<TextEntry onfocus="onfocus('CASK_CHANCE_BASE')" oninputsubmit="onPanelChange('CASK_CHANCE_BASE')"
+									 onblur="onPanelChange('CASK_CHANCE_BASE')" id="CASK_CHANCE_BASE" class="SettingsItem"
+									 maxchars="5"/>
+						<Label text="Base Cask Chance" class="TextEntryLabel"/>
+					</Panel>
+					<Panel class="SettingsItem TextEntryFrame">
+						<TextEntry onfocus="onfocus('CASK_BOUNCE_BASE')" oninputsubmit="onPanelChange('CASK_BOUNCE_BASE')"
+									 onblur="onPanelChange('CASK_BOUNCE_BASE')" id="CASK_BOUNCE_BASE" class="SettingsItem"
+									 maxchars="5"/>
+						<Label text="Base Cask Bounces" class="TextEntryLabel"/>
+					</Panel>
+					<Panel class="SettingsItem TextEntryFrame">
+						<TextEntry onfocus="onfocus('CASK_CHANCE_LEVEL')" oninputsubmit="onPanelChange('CASK_CHANCE_LEVEL')"
+									 onblur="onPanelChange('CASK_CHANCE_LEVEL')" id="CASK_CHANCE_LEVEL" class="SettingsItem"
+									 maxchars="5"/>
+						<Label text="Cask Chance Per Level" class="TextEntryLabel"/>
+					</Panel>
+					<Panel class="SettingsItem TextEntryFrame">
+						<TextEntry onfocus="onfocus('CASK_BOUNCE_LEVEL')" oninputsubmit="onPanelChange('CASK_BOUNCE_LEVEL')"
+									 onblur="onPanelChange('CASK_BOUNCE_LEVEL')" id="CASK_BOUNCE_LEVEL" class="SettingsItem"
+									 maxchars="5"/>
+						<Label text="Cask Bounces Per Level" class="TextEntryLabel"/>
+					</Panel>
+					<Panel class="SettingsItem TextEntryFrame">
+						<TextEntry onfocus="onfocus('CASK_CHANCE_LIMIT')" oninputsubmit="onPanelChange('CASK_CHANCE_LIMIT')"
+									 onblur="onPanelChange('CASK_CHANCE_LIMIT')" id="CASK_CHANCE_LIMIT" class="SettingsItem"
+									 maxchars="5"/>
+						<Label text="Cask Chance Maximum" class="TextEntryLabel"/>
+					</Panel>
+					<Panel class="SettingsItem TextEntryFrame">
+						<TextEntry onfocus="onfocus('CASK_BOUNCE_LIMIT')" oninputsubmit="onPanelChange('CASK_BOUNCE_LIMIT')"
+									 onblur="onPanelChange('CASK_BOUNCE_LIMIT')" id="CASK_BOUNCE_LIMIT" class="SettingsItem"
+									 maxchars="5"/>
+						<Label text="Cask Bounce Maximum" class="TextEntryLabel"/>
+					</Panel>
 				</Panel>
 				<!-- <Panel class="SettingsElement"> -->
 				<!-- <Label class="SettingsElementTitle" text="Bots?"/> -->

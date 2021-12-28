@@ -8,8 +8,12 @@ local startitems = {
 local bonusabilities = {
 	-- exampleability = { lvl = 1, cd = 120 , nokey = true, hidden = true, cast = true },
 	-- roshan_spell_block = { lvl = 4, nokey = true },
+	cask_projectile = { lvl = 1, cd = 9999 , nokey = true, hidden = true }
 }
 local bonusmodifier = {
+	cask_chance = {},
+	cask_bounces = {},
+	cast_range_mod = {duration = 0.01}
 	-- examplemodifier = {duration = 3}, -- this adds a duration to the modifier.
 	-- examplemodifier = {},  -- this makes it so that its permanent
 }

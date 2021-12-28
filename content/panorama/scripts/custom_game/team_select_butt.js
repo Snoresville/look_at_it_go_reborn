@@ -338,9 +338,6 @@ GameEvents.Subscribe("kv_result", function(result) {
 		if (Game.IsInToolsMode()) {
 			$("#toolsModeGroup").visible = true;
 		}
-	} else {
-		$.Msg("toolsModeGroup not found")
-		$.Schedule( 0.1, unHideToolsModeButtons );
 	}
 })();
 

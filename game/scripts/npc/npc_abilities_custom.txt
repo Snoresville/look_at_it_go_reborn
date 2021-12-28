@@ -60,4 +60,27 @@
 		"AssociatedConsumable"			"0"
 	}
 
+	"cask_projectile"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/cask_projectile"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityCooldown"				"99999"
+		"MaxLevel"						"1"							// Maximum skillable level
+		
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"700"
+		"AbilityCastPoint"				"0"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+		
+		
+		"AbilitySpecial"											
+		{
+		}
+	}
+
 }

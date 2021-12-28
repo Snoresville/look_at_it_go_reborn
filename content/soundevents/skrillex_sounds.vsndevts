@@ -1,0 +1,127 @@
+"tacobell"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/skrillex/tacobell.vsnd"
+                        }
+                    }
+                    "volume"            {   "value"     "1.7000"   }
+                    "pitch_rand_min"    {   "value"     "-0.00000"  }
+                    "pitch_rand_max"    {   "value"     "0.000000"  }
+                    "pitch"             {   "value"     "1.000000"  }
+                    "soundlevel"        {   "value"     "1000.00000" }
+                    "distance_max"      {   "value"     "1600.000"  }
+                    "event_type"        {   "value"     "3.000000"  }
+                }
+            }
+        }
+    }
+}
+
+
+"skrillex"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/skrillex/tryitout.vsnd"
+							  "value1"        "sounds/skrillex/reptile.vsnd"
+							  "value2"        "sounds/skrillex/cinema.vsnd"
+							  "value3"        "sounds/skrillex/bangafish.vsnd"
+							  "value4"        "sounds/skrillex/centipede.vsnd"
+							  "value5"        "sounds/skrillex/gasgasgas.vsnd"
+							  "value6"        "sounds/skrillex/dejavu.vsnd"
+							  "value7"        "sounds/skrillex/brainpower.vsnd"
+							  "value8"        "sounds/skrillex/spitfire1.vsnd"
+							  "value9"        "sounds/skrillex/spitfire2.vsnd"
+							  "value10"        "sounds/skrillex/spitfire3.vsnd"
+							  "value11"        "sounds/skrillex/911.vsnd"
+							  "value12"        "sounds/skrillex/ohmygod.vsnd"
+							  "value13"        "sounds/skrillex/kyoto.vsnd"
+							  "value14"			"sounds/skrillex/getonwithit.vsnd"
+							  "value15"			"sounds/skrillex/lawnmower.vsnd"
+							  "value16"			"sounds/skrillex/pillarmen.vsnd"
+							  "value17"			"sounds/skrillex/bfg1.vsnd"
+							  "value18"			"sounds/skrillex/bfg2.vsnd"
+							  "value19"			"sounds/skrillex/rollermobster.vsnd"
+							  "value20"			"sounds/skrillex/zion.vsnd"
+							  "value21"			"sounds/skrillex/myhopewillneverdie.vsnd"
+							  "value22"			"sounds/skrillex/megalovania.vsnd"
+							  "value23"			"sounds/skrillex/halland.vsnd"
+							  "value24"			"sounds/skrillex/spaghetti.vsnd"
+							  "value25"			"sounds/skrillex/bonfire.vsnd"
+							  "value25"			"sounds/skrillex/spaghetti2.vsnd"
+							  "value26"			"sounds/skrillex/saysomethin.vsnd"
+							  "value27"			"sounds/skrillex/kemonofriends.vsnd"
+							  "value28"			"sounds/skrillex/kemonoassaultinprogress"
+							  "value29"			"sounds/skrillex/deepinthenight"
+							  "value30"			"sounds/skrillex/ataleofsixmillionyears1"
+							  "value31"			"sounds/skrillex/ataleofsixmillionyears2"
+							  "value32"			"sounds/skrillex/brainpower1"
+							  "value33"			"sounds/skrillex/brainpower2"
+							  "value34"			"sounds/skrillex/brainpower3"
+							  "value35"			"sounds/skrillex/brainpower4"
+							  "value36"			"sounds/skrillex/brainpower5"
+							  "value37"			"sounds/skrillex/calamariinkantation1"
+							  "value38"			"sounds/skrillex/calamariinkantation2"
+							  "value39"			"sounds/skrillex/cryogen"
+							  "value40"			"sounds/skrillex/cybernepallset"
+							  "value41"			"sounds/skrillex/deepinthenight2"
+							  "value42"			"sounds/skrillex/dirtyvibe"
+							  "value43"			"sounds/skrillex/doublefuckingrainbow"
+							  "value44"			"sounds/skrillex/futureland1"
+							  "value45"			"sounds/skrillex/futureland2"
+							  "value46"			"sounds/skrillex/futureland3"
+							  "value47"			"sounds/skrillex/ijincho"
+							  "value48"			"sounds/skrillex/ineedyourlove"
+							  "value49"			"sounds/skrillex/kamurocho"
+							  "value50"			"sounds/skrillex/lawnmower2"
+							  "value51"			"sounds/skrillex/mabuchi"
+							  "value52"			"sounds/skrillex/piencitrus"
+							  "value53"			"sounds/skrillex/saysomethin2"
+							  "value54"			"sounds/skrillex/sorryasapcroissant"
+							  "value55"			"sounds/skrillex/superhammer"
+							  "value56"			"sounds/skrillex/theoryofbeauty"
+							  "value57"			"sounds/skrillex/brawlbreaks"
+							  "value58"			"sounds/skrillex/energysynergymatrix1"
+							  "value59"			"sounds/skrillex/energysynergymatrix2"
+							  "value60"			"sounds/skrillex/energysynergymatrix3"
+							  "value61"			"sounds/skrillex/unravel"
+							  "value62"			"sounds/skrillex/boundless"
+                        }
+                    }
+                    "volume"            {   "value"     "1.7000"   }
+                    "pitch_rand_min"    {   "value"     "-0.00000"  }
+                    "pitch_rand_max"    {   "value"     "0.000000"  }
+                    "pitch"             {   "value"     "1.000000"  }
+                    "soundlevel"        {   "value"     "1000.00000" }
+                    "distance_max"      {   "value"     "1600.000"  }
+                    "event_type"        {   "value"     "3.000000"  }
+                }
+            }
+        }
+    }
+}
